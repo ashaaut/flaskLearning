@@ -1,6 +1,6 @@
 from abc import ABC,abstractmethod
 
-class productService(ABC):
+class ProductService(ABC):
     
     @abstractmethod
     def add_product(self,prod):
